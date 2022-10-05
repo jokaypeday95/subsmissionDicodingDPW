@@ -1,0 +1,19 @@
+@for $j from 1 through 30{
+  .spacer-px#{$j*5}{
+    margin-top: calc($j*5) * 1px;
+  }
+}
+@for $k from 1 through 10{
+  .spacer-persen#{$k*10}{
+    margin-top: calc($k*10) * 1%;
+  }
+}
+.spacerFirst{
+  padding: 5% 0;
+}
+.spacerSection{
+  padding: 0 0 5%;
+}
+.spacerSection1{
+  padding: 0 0 2%;
+}

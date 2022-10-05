@@ -1,0 +1,23 @@
+.personal{
+  width: 100%;
+  padding: 10px 10px;
+  .table-style{
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+    // font-size: 15px;
+    // margin-left: 15px;
+    // overflow-x: auto;
+    // th, td{
+    //   padding: 2px;
+    // }
+    tr:nth-child(odd){
+      // background: #e5e5e5;
+      background: $color3;
+    }
+    tr:hover{
+      background: black;
+      color: white;
+    }
+  }
+}
